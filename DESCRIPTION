@@ -1,0 +1,46 @@
+Package: RedFlagsEcApp
+Title: Banderas rojas Ecuador
+Version: 0.0.0.9000
+Authors@R: person('datasketch', ' ', email = 'datasketch@gmail.co', role = c('cre', 'aut'))
+Description: App to explore plots
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    covr,
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+Imports: 
+    attempt,
+    dplyr,
+    dsmodules (>= 0.5.6),
+    DT,
+    golem,
+    webshot2,
+    hgchmagic (>= 1.0.0),
+    lfltmagic (>= 0.1.0),
+    parmesan (>= 0.6.1),
+    shiny,
+    shinybusy,
+    shinydisconnect,
+    shinyBS,
+    bsplus,
+    shinyinvoer (>= 0.1.0),
+    shinypanels (>= 0.5.1)
+Remotes: 
+    datasketch/parmesan,
+    datasketch/shinyinvoer@a05f036,
+    datasketch/shinypanels@8be05c0,
+    datasketch/dsmodules,
+    datasketch/hgchmagic@6be03788f,
+    datasketch/lfltmagic@e2a8d1138
+Depends: 
+    R (= 4.2.1)
+LazyData: true
+VignetteBuilder: knitr

@@ -1,0 +1,12 @@
+filtros:
+  label: 
+  inputs:
+    - InsId_band
+    - InsId_rb
+    - InsId_sli
+    - InsId_reg_sli
+    - InsId_reg_sli_locality
+    - InsId_date_sli
+    
+
+

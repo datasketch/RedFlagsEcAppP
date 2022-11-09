@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+
+html, body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.shinybusy, .shinybusy-ready {
+ top: 30% !important;
+ right: 50% !important;
+}
+
+.btn-default {
+font-family: Open Sans;
+ background: #ffffff !important;
+ background: #ffffff !important;
+ border: 2px solid #525166;
+ color: #435b69;
+ float: left;
+ font-size: 0.82rem;
+ font-weight: 400;
+ text-transform: initial;
+ letter-spacing: 0;
+ margin-bottom: 2px;
+}
+
+.basic_active {
+  color: #ffffff !important;
+  background-color: #525166 !important;
+  border-color: #525166 !important;
+}
+
+
+.needed {
+ margin-bottom: 3px;
+ margin-left: 3px;
+ margin-right: 3px;
+ margin-top: 3px;
+ max-width: 45%;
+ text-align: left;
+ white-space: normal;
+ width: 100%;
+ word-wrap: break-word;
+ padding: 4px 0;
+ padding-left: 10px;
+}
+
+
+.buttons-group {
+  background-color: transparent;
+  display: flex !important;
+  gap: 20px !important;
+  padding: 0px !important;
+}
+
+
+.buttons-group .button-container {
+  height: 35px !important;
+  width: 35px !important;
+}
+
+
+.buttons-group .button-style.active-btn {
+  filter: brightness(0.5);
+  background-color: #5165A9 !important;
+  background: #5165A9 !important;
+  color: #5165A9 !important;
+}
+
+
+.buttons-group .button-style.active-btn:hover {
+  background-color: #5165A9 !important;
+  background: #5165A9 !important;
+  color: #5165A9 !important;
+}
+
+.button-checkmark {
+ display: none;
+}
+
+.style_section {
+ margin-bottom: 0rem !important; 
+}
+
+.top-malibu {
+    border-top: 0px !important;
+    overflow-y: hidden !important;
+}
+
+.top-chardonnay {
+    border-top: 0px !important;
+}
+
+.text-chardonnay {
+    text-align: left;
+    letter-spacing: 0.88px;
+    color: #202020;
+}
+
+
+.text-malibu {
+    text-align: left;
+    letter-spacing: 0.88px;
+    color: #202020;
+}
+
+.dropdown-action-trigger {
+   background-color: #EA5E31 !important;
+}
+
+
+.control-label{
+     height: 0px;
+     width: 250px; 
+     margin-top: 0px;!important;
+}
+
+#load_parmesan_ui_1-InsId_date_sli-label{
+  height: 30px;
+  
+}
+
+
+#load_parmesan_ui_1-InsId_reg_sli-label{
+height: 15px;  
+}
+
+#load_parmesan_ui_1-output_InsId_sli{
+width: 280px;  !important;
+  
+}
+
+#load_parmesan_ui_1-output_InsId_rb{
+height: 70px;  
+  
+}
+.selectize-control{
+  
+  height: 0px;
+}
+
+
+.irs-bar {
+    border-top: 1px solid #EA5E31 !important;
+    border-bottom: 1px solid #EA5E31 !important;
+    background: #EA5E31 !important;
+}
+
+.irs-from, .irs-to, .irs-single {
+    color: #EA5E31 !important;
+}
+
+.style_section {
+    color: #29366d !important;
+} 
+
+.input-autosuggest {
+    margin-bottom: 12px !important;
+}
+
+th.dt-letf {
+            text-align: left;
+            text-transform: uppercase;
+}
+
+td.dt-letf {
+             text-align: left;
+              text-transform: uppercase;
+}
+            
+        

@@ -1,0 +1,76 @@
+---
+InsId_band:
+  show: true
+  input_type: selectizeInput
+  input_params: 
+    choices: sel_in_opts_band()
+    selected: null
+    multiple: true
+    label: ""
+    options:
+      placeholder: Buscar bandera
+      plugins:
+      - - remove_button
+      - - drag_drop
+
+
+InsId_rb:
+  show: true
+  input_type: radioButtons
+  input_params:
+    label: ""
+    choices: type_opts()
+
+    
+InsId_sli:
+  show: true
+  input_type: searchInput
+  input_params: 
+    data: sel_in_opts()
+    placeholder: Buscar Entidad o Proveedor
+    
+    
+InsId_reg_sli:
+  show: true
+  input_type: selectizeInput
+  input_params: 
+    label: ""
+    choices: sel_reg_in_opts()
+    selected: null
+    multiple: true
+    options:
+      placeholder: Buscar provincia
+      plugins:
+      - - remove_button
+      - - drag_drop
+    
+InsId_reg_sli_locality:
+  show: true
+  input_type: selectizeInput
+  input_params: 
+    choices: sel_reg_in_opts_locality()
+    label: ""
+    selected: null
+    multiple: true
+    options:
+      placeholder: Buscar ciudad
+      plugins:
+      - - remove_button
+      - - drag_drop
+
+
+
+InsId_date_sli:
+  show: true
+  input_type: sliderInput
+  input_params: 
+    label: Años de interés
+    min: sel_date_min_opts()
+    max: sel_date_max_opts()
+    value: sel_date_mean_opts()
+    sep: ""
+    width: '5px'
+    
+  
+      
+    
