@@ -1,5 +1,7 @@
 # MIT License
 
+Copyright (c) 2022  Datasketch.co
+
 Copyright (c) 2021 Golem User
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
